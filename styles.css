@@ -1,0 +1,110 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background-color: #0073e6;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero Section Styling */
+.hero {
+    background-color: #444;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+/* Content Section Styling */
+.content {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.content h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+/* Video Section Styling */
+.video iframe {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 8px;
+}
+
+.substack a {
+    color: #0073e6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.substack a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
