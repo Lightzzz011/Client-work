@@ -1,18 +1,16 @@
-/* Reset some default styles */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-/* Body Styling */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     color: #333;
 }
 
-/* Header Styling */
+
 header {
     background-color: #0073e6;
     color: white;
@@ -34,7 +32,7 @@ header nav ul li a {
     text-decoration: none;
 }
 
-/* Hero Section Styling */
+
 .hero {
     background-color: #444;
     color: white;
@@ -51,7 +49,6 @@ header nav ul li a {
     font-size: 1.2em;
 }
 
-/* Content Section Styling */
 .content {
     padding: 40px 20px;
     text-align: center;
